@@ -1,0 +1,14 @@
+.thumbnail{ height: 230px;width: 200px;background-color: #fff}
+
+#productsContainer{padding: 15px;}
+
+#productName{color: #000;font-weight: 600;font-min-height: 50px;font-size: 20px;padding: 5px;}
+
+.costText{color: #008000;font-weight: 700;font-size: 30px;padding: 10px;}
+
+#offerpriceText{color: #D43132;font-weight: 700;background: #fff;padding: 10px;border-radius: 5px;font-size: 24px;}
+
+#detailDiv{margin-top: 10px;}
+
+p{margin: 0px}
+

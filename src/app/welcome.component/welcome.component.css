@@ -1,0 +1,9 @@
+#welcomeContainerDiv{
+	margin-top: 14%;
+	font-size: 65px;
+}
+
+a{
+	text-decoration: none;
+}
+#welcomeLoader{display: none;}

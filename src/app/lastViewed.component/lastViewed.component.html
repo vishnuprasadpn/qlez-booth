@@ -1,0 +1,38 @@
+
+<div class="row scrollSize contentScrollX" style="padding: 5px 0px;">
+
+	<div id="backgroundOpacityInnerDiv"></div>
+
+	<table class="table" *ngIf="lastViewedProducts.length!=0">
+		<tr>
+			<td *ngFor="let product of lastViewedProducts;let idx = index" (click)="viewProductDetails(product)" align="center">
+				<div class="row" style="width: 450px;background:#fff;height: 260px;
+    padding: 10px;">
+					<div class="col-lg-6" align="right">
+						<img src="{{product.productImage}}" class="thumbnail">	
+					</div>
+					<div class="col-lg-6" align="left" style="background-color: #fff;margin-left: -16px;padding-bottom: 3px;">
+						<p style="font-weight: 600;font-size: 18px;margin:0px;max-width: 250px;min-height: 125px;padding: 14px 0px;">{{product.productName}}</p>
+						<br>
+						<span *ngFor="let st of stars">
+					        <i class="fa fa-star" #pStar id="{{idx}}{{st}}"></i>
+						</span>
+						<p style="margin:7px">
+							<span id="productCostValue" style="">₹ {{product.productOfferPrice}}</span>
+						</p>	
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<table class="table" *ngIf="lastViewedProducts.length==0" style="    min-height: 250px;">
+		<tr>
+			<td style="padding:8px 0px">
+				<div style="min-height: 250px;background-color: #E4EDF5">
+					<p style="font-size: 44px;">Welcome Qlez Booth </p>
+					<p style="font-size: 34px;">Please Find Your Last Viewed Item Here</p>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>

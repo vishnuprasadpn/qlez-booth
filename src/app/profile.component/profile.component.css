@@ -1,0 +1,58 @@
+swiper{
+    height: 300px;
+    width: 400px;
+}
+ 
+#customerNameDiv{padding: 10px 60px 5px 60px;}
+.editIcon{font-size: 25px;}
+.notificationList{padding: 0;list-style-type: none;text-align: center;}
+
+#myProfile{display: none;}
+
+.form-control{height: 100%;}
+
+.profileInputStyle{background: none;border: none;color: #fff;}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	padding:8px 0px;
+}
+
+#customerAddressLabel{margin-top: -20px;}
+
+#customerAddressInput{padding:4px;background: none;border: none;color: #fff;}
+
+#LanguageTable{color: #fff;margin-bottom: 39px;}
+
+#profileFooterDiv{color: #fff;}
+
+#disp{position: absolute;top: 0;left: 0;right: 0;background:#333;opacity: 0.4;}
+
+#profilePicNotificationCount{
+	background-color:gold;border-radius:50px;position: absolute;
+    right: 37%;font-size: 13px;color: #fff;padding: 3px 5px;z-index: 99999999;font-weight: 600}
+
+.notificationCount{color: #fff;background: blue;padding: 2px 4px;font-size: 10px;border-radius: 20px;font-weight: 600;position: absolute;right:-5px;top:-5px;}
+#notificationBell{color: gold;font-size: 18px;position: absolute;right: 81px;}
+
+#profileSection{position: absolute;bottom: -111px;left:0;width:100%;padding: 33px 0px 0px 0px;}
+
+
+.editIcon2{display: none}
+
+#customerImage{    width: 140px;
+    height: 140px;border-radius: 99%;border: 5px solid #fff;}
+
+#customerName{
+	font-weight: 600;font-size: 18px;min-width: 100px;background: none;color: #000;
+  border-radius: 20px;border: 2px solid #fff;background: #fff;text-align: center;}
+
+.profile-div{padding: 0px;color: #fff;}
+
+.content {overflow-y: scroll;}
+
+.content::-webkit-scrollbar {display: none;}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

@@ -1,0 +1,136 @@
+<div class="" id="disp" (click)="showProfile()"></div>
+<nav id="navbarID" class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#footerNavbar">
+          <span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span> 
+        </button>
+    </div>
+    <div class="collapse navbar-collapse row" id="footerNavbar" #navPart>
+      <div class="col-lg-3 col-md-3">
+        <profile></profile>
+      </div>
+      <div class="col-lg-9 col-md-9 nav navbar-nav" style="float: right">
+        <table class="table">
+          <tr>
+            <td #navItem (click)="openReview()" id="myReview">
+              <table class="table" style="background: none">
+                <tr>
+                  <td class="iconName">
+                    My Reviews&nbsp;
+                  </td>
+                  <td>
+                    <!-- <div class="navIconCountDiv" *ngIf="pendingCountVisibility">{{pendingReviewCount}}</div> -->
+                     <i class="fa fa-file-text navIcons review-icon" aria-hidden="true" ></i>
+                  </td>
+                </tr>
+              </table>
+            </td>
+
+            <td #navItem (click)="underConstruction()">
+              <table class="table" style="background: none">
+                <tr>
+                  <td class="iconName">
+                    My Expert&nbsp;
+                  </td>
+                  <td>
+                     <i class="fa fa-user fa-3x navIcons expert-icon" aria-hidden="true"></i>
+                  </td>
+                </tr>
+              </table>
+            </td>
+
+            <td #navItem (click)="underConstruction()">
+              <table class="table" style="background: none">
+                <tr>
+                  <td class="iconName">
+                    My Offers&nbsp;
+                  </td>
+                  <td>
+                    <div class="navIconCountDiv" *ngIf="offersCountVisibility">12</div>
+                    <i class="fa fa-gift fa-3x navIcons gift-card" aria-hidden="true"></i>
+                  </td>
+                </tr>
+              </table>
+            </td>
+
+            <td #navItem (click)="underConstruction()">
+              <table class="table" style="background: none">
+                <tr>
+                  <td class="iconName">
+                    Item Locator&nbsp;
+                  </td>
+                  <td>
+                    <i class="fa fa-map-marker fa-3x navIcons map-pin" aria-hidden="true"></i>
+                  </td>
+                </tr>
+              </table>
+            </td>
+
+            <td #navItem (click)="openBucket()">
+              <table class="table" style="background: none">
+                <tr>
+                  <td class="iconName">
+                    My Bucket&nbsp;
+                  </td>
+                  <td>
+                    <div class="navIconCountDiv2" *ngIf="bucketCountVisibility">{{bucketCount}}</div>    
+                    <i class="fa fa-shopping-cart fa-3x navIcons" aria-hidden="true"></i>
+                  </td>
+                </tr>
+              </table>
+            </td>
+
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--Pending Review Modal -->
+<div id="myReviews" class="overlay" style="padding: 0px 20px;">
+    <a id="closebtn" class="closebtn" (click)="closeReview()">&times;</a>
+    <div class="overlay-content">
+      <p class="modal-title" style="font-size: 38px;">My Pending Review</p>
+      <div class="modal-body container content" style="border:16px solid #c9a1a1;background: white;
+    max-height: 518px;
+    overflow-y: scroll;">
+        <ul class="notificationList">
+          <review></review>
+        </ul>         
+      </div>
+    </div>
+</div>
+
+
+<!-- Transaction Overlay -->
+<div id="myBucket" class="overlay" align="center">
+    <a id="closebtn" class="closebtn" (click)="closeBucket()">&times;</a>
+    <div class="overlay-content" style="width: 85%">
+      <div *ngIf="showCustomerProducts">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 bucketToggleLeftOptions" id="lastViewedButton" (click)="toggleBucketOption('lastViewed')">
+            <p class="optionHeading">Last Viewed</p>
+          </div>
+          <div class="col-lg-6 col-md-6 bucketToggleRightOptions" id="myFavoritesButton" (click)="toggleBucketOption('myFavorites')">
+            <p class="optionHeading">My Favorites</p>
+          </div>
+        </div>
+        <div class="row optionsDiv" id="lastViewed">
+          <last-viewed></last-viewed>
+        </div>
+        <div class="row optionsDiv" id="myFavorites" style="display: none">
+          <my-favorite></my-favorite>
+        </div>
+      </div>
+      <div class="modal-body">
+        <bucket></bucket>
+      </div>
+    </div>
+</div>
+
+<!-- The actual snackbar -->
+<div id="snackbar">Sorry The Service is Under Construction</div>

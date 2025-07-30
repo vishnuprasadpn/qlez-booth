@@ -1,0 +1,86 @@
+<div class="row">
+	
+	<div class="col-lg-3">
+		
+		<h3 id="productNameValue">{{product.productName}}</h3>
+		
+		<div align="center">
+			
+			<img src="{{product.productImage}}" id="comparingProductImage">
+		
+		</div>
+		
+		<div id="productDetailDiv" align="center">
+			
+			<p id="offerPriceLabel">Offer Price :
+			
+				<span id="offerPriceValue">₹ {{product.productOfferPrice}}</span>
+
+			</p>
+			
+			<h4 id="productCostValue">
+
+				<s>₹ {{product.productCost}}</s>
+
+				<span id="percentageOffValue">({{percentageOff}}% OFF)</span>
+
+			</h4>
+		
+		</div>
+	 
+	</div>
+
+	<div class="col-lg-9">
+
+		<div class="row">
+			
+			<div class="col-lg-4" align="center" max-height="200px">
+
+				<div style="width: 58%;">
+
+					<img src="{{amazonproduct.vendorLogoUrl}}" height="200px">
+
+				</div>
+
+				<p>
+					<span style="background: #fff;padding: 5px;border-radius: 18px;">
+						<span *ngFor="let st of stars" >
+							    
+					        <i class="fa fa-star" #pStar id="{{st}}"></i>
+								   	
+						</span>
+					</span>
+
+					&nbsp;{{amazonproduct.totalReviews}} Reviews
+
+				</p>
+	
+				<div id="productsDetails">
+					
+					<p id="offerPriceLabels">Best Price :
+				
+						<span id="offerPriceValues">₹ {{amazonproduct.offer}}</span>
+
+					</p>
+				
+					<p id="productCostValues">
+
+						<s>₹ {{amazonproduct.price}}</s>
+				
+						<span id="productOfferPercentValue">({{amazonproduct.discount}}% OFF)</span>
+
+					</p>
+				
+				</div>
+
+			</div>
+
+			<div class="col-lg-6"></div>
+
+		</div>
+	
+	</div>
+
+</div>
+
+<footer></footer>

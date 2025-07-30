@@ -1,0 +1,56 @@
+<div class="row" style="margin-top: 2%">
+	<div class="col-lg-3" align="center">
+		<div style="background: white;border-radius:8px;padding:25px 0px;">
+			<h3 id="productNameValue" style="margin-top: 0px;width: 80%;">{{comparingProduct.item.item_name}}</h3>
+			<div align="center">
+				<img src="{{comparingProductImage}}" id="comparingProductImage">
+			</div>
+			
+			<div id="productDetailDiv">
+				<p id="offerPriceLabel">Offer Price : ₹ {{comparingProduct.item.item_sp}}
+					<span id="offerPriceValue"></span>
+				</p>
+				<h4 id="productCostValue">
+					<s>₹ {{comparingProduct.item.item_mrp}}</s>
+					<span id="percentageOffValue">({{percentageOffer}}% OFF)</span>
+				</h4>
+			</div>
+		</div>
+		<button class="form-control" id="compareButton" (click)="compareProducts()" *ngIf="confirmedProductCount>0">Compare Products &nbsp;
+			<span id="productCount">{{confirmedProductCount}}</span>
+		</button> 
+
+		<!--<button class="form-control" id="backButton" (click)="backtoProductView()"> <i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to Product View</button>-->	
+	</div>
+	
+	<div class="col-lg-9">
+		<p id="userHintInCompare">* Select Any Product to Compare</p>
+		<div class="row" align="center">
+			<div *ngFor="let product of similarProducts;let idx = index;">
+				<div class="col-lg-4" *ngIf="product.productName != comparingProduct.item.item_name" style="padding: 0px 16px;padding-bottom:34px;">
+					<div class="row" style="background:white;padding: 18px 5px;    border-radius: 8px;" (click)="selectProduct(selectIcon,product)">
+						<div class="col-lg-6">
+							<img src="{{product.productImage}}" id="productImages" class="thumbnail">
+						</div>
+						<div class="col-lg-6">
+							<p class="productNameValues" style="font-weight: 600;font-size: 17px;margin:0px;margin-bottom: 4px">{{product.productName}}</p>
+							<div id="productsDetails">
+								<p id="offerPriceLabels">Offer Price <br>
+									<span id="offerPriceValues">₹ {{product.productOfferPrice}}</span>
+								</p>
+								<p id="productCostValues">
+									<s>₹ {{product.productCost}}</s>
+									<span id="productOfferPercentValue">({{product.productPercentOff}}% OFF)</span>
+								</p>
+								<br>
+								<img class="selectIcon" id="{{product.productNo}}" src="https://s3-us-west-2.amazonaws.com/qlezfilesbucket/selected.png" #selectIcon >
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+
+<footer></footer>

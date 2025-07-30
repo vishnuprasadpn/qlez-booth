@@ -1,0 +1,32 @@
+<div class="row scrollSize contentScrollX" style="padding: 5px 0px;overflow-x: auto;">
+	<div id="backgroundOpacityInnerDiv"></div>
+	<table class="table">
+		<tr>
+			<td *ngFor="let product of myFavoriteProducts;let idx = index" (click)="viewProduct(product)" align="center">	
+				<div class="row" style="width: 450px;background:#fff;height: 260px;
+    padding: 10px;">
+					<div class="col-lg-6" align="right">
+						<img src="{{product.productImage}}" class="thumbnail">	
+					</div>
+					<div class="col-lg-6" align="left" style="background-color: #fff;margin-left: -16px;padding-bottom: 3px;">
+						<p style="font-weight: 600;font-size: 18px;margin:0px;max-width: 250px;min-height: 125px;padding: 14px 0px;">{{product.productName}}</p>
+						<br>
+						<span *ngFor="let st of stars">
+					        <i class="fa fa-star" #pStar id="{{idx}}{{st}}"></i>
+						</span>
+						<p style="margin: 7px;">
+							<span id="productCostValue">₹ {{product.productOfferPrice}}</span>
+						</p>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<div id="noFavProductDiv" align="center">
+		<div style="min-height: 250px;background-color: #E4EDF5;">
+			<p style="font-size: 37px">No Products Marked as Favorite</p>
+			<br>
+			<i class="fa fa-thumbs-o-down fa-3x" style="font-size: 55px!important"></i>
+		</div>
+	</div>
+</div>

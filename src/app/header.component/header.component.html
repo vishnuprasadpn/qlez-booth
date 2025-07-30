@@ -1,0 +1,98 @@
+<div class="row" id="headerDiv">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="leftSubHeader">
+        <img class="animate-fade1" id="customerLogo" src="http://www.saudagarr.com/media/logo/image/demo/sample-logo.png">
+    </div>
+    <div class="col-lg-4  col-md-4 col-sm-4 col-xs-4" align="center"></div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="rightSubHeader">
+        <img class="animate-fade1" src="../../assets/" id="piLogo">
+
+        <i id="helpIcon" class="fa fa-question-circle fa-3x animate-fade1" aria-hidden="true" (click)="openHelp()"></i>
+
+
+        <div id="userMenu" class="collapse">
+            <div align="right">
+                <button class="form-control userMenuOption" id="needAssistanceButton" (click)="getAssistance()">Need Assistance</button>
+
+            </div>
+            <div align="right">
+                <button class="form-control userMenuOption" (click)="showFAQs()" id="faqButton">FAQ's</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Pending Review Modal -->
+<div id="FAQContainer" class="overlay">
+    <a id="closebtn" class="closebtn" (click)="closeFAQ()" style="">&times;</a>
+    <div class="overlay-content">
+        <div class="container">
+            <h1 id="FAQHeader">FAQ's</h1>
+        </div>
+
+        <div class="modal-body container content" id="FAQmodalContainer">
+            <ul>
+                <li class="question">
+                    <p>Q. How can I change my information for ex. Phone no., Email ID, Address, Native language etc.</p>
+                </li>
+
+                <li class="answer">
+                    <p>Ans. Click on my profile icon 'icon' and edit any field, press save in the end.</p>
+                </li>
+                <hr>
+                <li class="question">
+                    <p>Q. How can I check myQlez points balance?</p>
+                </li>
+
+                <li class="answer">
+                    <p>A. Click on my profile icon 'icon' to check your Qlez balance. In case of doubts go for <a (click)="needAssistance()">'Need Assistance'</a></p>
+                </li>
+                <hr>
+                <li class="question">
+                    <p>Q. How many products I can carry to Booth?</p>
+                </li>
+
+                <li class="answer">
+                    <p>Ans. You can carry 4 products at a time to booth. And your product info is available in My Bucket 'icon'. Touching any product from My Bucket will display view a product of that particular product.</p>
+                </li>
+                <hr>
+                <li class="question">
+                    <p>Q. Discrepencies in Product I am carrying and product displayed on booth?</p>
+                </li>
+
+                <li class="answer">
+                    <p>Ans. Let us help you. Please touch on <a (click)="needAssistance()">'Need Assistance'</a></p>
+                </li>
+                <hr>
+                <li class="question">
+                    <p>Q. I want to review my last purchase?</p>
+                </li>
+
+                <li class="answer">
+                    <p>Ans. Please click on My Reviews Icon 'icon' Here you can review all the products bought till far. Customers with more reviews are considered as loyal buyers and enjoy personalized offers regularly.</p>
+                </li>
+                <hr>
+                <li class="question">
+                    <p>Q. How to recharge my QLez wallet?</p>
+                </li>
+                <li class="answer">
+                    <p>Ans. You can always go to customer service unit. Scan your Customer ID and recharge your QLez wallet by any of suggested payment method i.e. Cash/digital transaction in no time. For more queries relted to QLez CC please touch on
+                        <a (click)="needAssistance()"> 'Need Assistance' </a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!--Pending Review Modal -->
+<div id="AssistanceMessage" class="overlay">
+    <a id="closebtn" class="closebtn" (click)="closeAssistance()">&times;</a>
+    <div class="overlay-content" id="Assistance-Overlay-Content">
+        <p id="Assistance-Message-1">We love to Help you.</p>
+        <br>
+        <p id="Assistance-Message-2">Our Experts will reach out to you in Seconds</p>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+#productDetailDiv{background: #fff;text-align: center;padding: 10px;margin: 10px 20px;border-radius: 9px;width: 80%;}
+
+.thumbnail{width: 182px;height: 201px;}
+
+#comparingProductImage{position: relative;width: 259px;height: 330px;overflow: hidden;background: none;border: 4px solid #fff;border-radius: 24px;}
+
+#productsDetails{background: #fff;width: 60%;padding: 10px;margin: 10px;border-radius: 9px;}
+
+#productNameValue{text-align: center;font-weight: 600;};
+
+#productCostValue{font-size: 19px;font-weight: 600;}
+
+#productCostValues{font-weight: 600;}
+
+#percentageOffValue{color: #ff0000;font-size: 24px;}
+
+#offerPriceLabel{font-size: 21px;font-weight: 600;}
+
+#offerPriceLabels{font-weight: 600;font-size: 16px;}
+
+#offerPriceValue{font-size: 27px;color: #006400;}
+
+#offerPriceValues{font-size: 21px;color: #006400;}
+
+#productOfferPercentValue{color: red;font-size: 17px;}
+
+p{margin: 0px}

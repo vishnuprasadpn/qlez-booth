@@ -1,0 +1,126 @@
+.navbar{background: #C93756;z-index: 9999;}
+#myBucket{padding: 0px 20px;z-index: 99;}
+.notificationList{padding: 0;list-style-type: none;text-align: center;}
+
+.form-control{height: 100%;}
+
+#disp{position: absolute;top: 0;left: 0;right: 0;background:#333;opacity: 0.4;}
+
+.navIconCountDiv{
+	background-color: green;border-radius: 50px;font-size: 13px;color:#fff;padding: 3px 9px;
+	z-index: 99999999;position: absolute;top: 2px;right: 15px;font-weight: 600}
+
+.navIconCountDiv2{
+	    background-color: green;
+    border-radius: 50px;
+    font-size: 13px;
+    color: #fff;
+    padding: 7px 14px;
+    z-index: 99999999;
+    position: absolute;
+    top: 8px;
+    right: 67px;
+    font-weight: 600;}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{border-top: none}
+.table{margin-bottom: 0px}
+td{padding: 0px}
+.navIcons{border-radius: 50px;padding: 25px;background: #fff;margin:10px 0px;cursor: pointer;color:#D43132;}
+
+.iconName{cursor: pointer;color: #fff;font-weight: 700;padding: 50px 0px;
+    text-align: center; font-size: 20px;}
+
+#modal-content{background: transparent;background:#EFF0F1;}
+
+.modal-backdrop{background-color: #fcf8e3!important;}
+
+.navbar-tog{display: block!important;}
+
+.content {overflow-y: scroll;}
+
+.content::-webkit-scrollbar {display: none;}
+
+.bucketToggleLeftOptions{background: #fff;color: #000;border-top-left-radius: 19px;padding: 16px;}
+
+.bucketToggleRightOptions{background: #fff;color: #000;border-top-right-radius: 19px;padding: 16px;}
+
+.optionsDiv{padding:0px;}
+
+#myFavoritesButton{opacity: 0.5}
+
+#backgroundOpacityDiv{position: absolute;top: 0;bottom: 0;left: 0;right: 0;opacity: 0.8;background: #F5EFE1;}
+
+.modal-header{padding: 0px;}
+
+.modal-body{padding:0px;}
+
+.optionHeading{font-size: 28px;margin: 6px;font-weight: 600;}
+
+p{margin:0;}
+
+.modal-title{text-align: center;padding: 10px;font-size: 26px;}
+
+.bucket-dialog-div{width: 80%;margin-top: 14px;}
+
+.bucket-content-div{background: none;}
+
+.map-pin{    padding: 25px 34px;}
+
+.gift-card{    padding: 25px 31px;}
+
+.expert-icon{ padding: 28px 31px;}
+
+.review-icon{font-size: 35px;    padding: 25px 31px;}
+
+.animate-fade1 {
+  position: relative;
+  -webkit-animation-name: animatefade;
+  -webkit-animation-duration: 1s;
+  animation-name: animatefade;
+  animation-duration: 1s
+}
+.animate-fade2 {
+  position: relative;
+  -webkit-animation-name: animatefade;
+  -webkit-animation-duration: 2s;
+  animation-name: animatefade;
+  animation-duration: 2s
+}
+.animate-fade3 {
+  position: relative;
+  -webkit-animation-name: animatefade;
+  -webkit-animation-duration: 2s;
+  animation-name: animatefade;
+  animation-duration: 2s
+}
+
+.animate-fade4 {
+  position: relative;
+  -webkit-animation-name: animatefade;
+  -webkit-animation-duration: 2s;
+  animation-name: animatefade;
+  animation-duration: 2s
+}
+
+#myReviews{
+    background-color: rgba(231, 207, 212, 0.81)!important;
+}
+.animate-fade5 {
+  position: relative;
+  -webkit-animation-name: animatefade;
+  -webkit-animation-duration: 2s;
+  animation-name: animatefade;
+  animation-duration: 2s
+}
+
+
+.overlay .closebtn{position: absolute;
+    right: 21px;
+    font-size: 77px;
+    color: red;
+  }
+
+.overlay-content{top: 1%}
+.content::-webkit-scrollbar {display: none!important;}
+
+.reviewBorderInside{border: none;}

@@ -1,0 +1,47 @@
+.selectIcon{
+    display: none;
+    position: relative;
+    right: 0%;
+    padding: 5px;
+    border: 0px;width: 57px;text-align: center;}
+
+#compareButton{background: red;height: inherit;color: #fff;font-size: 22px;padding: 8px;margin: 20px 0px;}
+#backButton{width: 100%;height: inherit;font-size: 22px;padding: 8px;margin: 20px 0px;background: #C93756;color: #fff;}
+#productCount{background: darkcyan;padding: 2px 10px;border:none;border-radius: 6px;}
+
+#productDetailDiv{background: #fff;text-align: center;padding: 10px 0px;margin: 10px 0px;border-radius: 9px;width: 100%;}
+
+.thumbnail{max-height: 310px;min-height: 310px;
+    max-width: 220px;}
+#userHintInCompare{font-size: 23px;color: brown;position: absolute;top: -34px;}
+#comparingProductImage{    position: relative;
+    /* width: 358px; */
+    height: 380px;
+    max-width: 414px;
+    overflow: hidden;
+    background: none;
+    border: 4px solid #fff;
+    border-radius: 7px;}
+
+#productsDetails{background: #fff;padding: 10px;margin: 10px;border-radius: 9px;}
+
+.productNameValue{text-align: center;font-weight: 600;font-size: 18px};
+
+#productCostValue{font-size: 19px;font-weight: 600;}
+
+#productCostValues{font-weight: 600;}
+
+#percentageOffValue{color: #ff0000;font-size: 24px;}
+
+#offerPriceLabel{font-size: 21px;font-weight: 600;}
+
+#offerPriceLabels{font-weight: 600;font-size: 16px;}
+
+#offerPriceValue{font-size: 27px;color: #006400;}
+
+#offerPriceValues{font-size: 20px;color: #006400;}
+
+#productOfferPercentValue{color: red;font-size: 16px;}
+
+p{margin: 0px}
+

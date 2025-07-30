@@ -1,0 +1,38 @@
+<p id="noItemFoundStatus" class="reviewBorderInside" *ngIf="noReviewsLeft">No Pending Items to Review</p>
+<div class="content reviewBorderInside" *ngIf="!noReviewsLeft">
+  <li *ngFor="let review of previousPurchase;let idx = index" >
+    <div class="row" id="{{idx}}" #list style="padding: 20px 7px!important;">
+      <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+        <img src="{{review.productImage}}" class="thumbnail">   
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="text-align: left">
+        <p id="productName">{{review.productName}}</p>
+        <p id="productOfferPrice">₹ {{review.productSP}}</p>
+        <p id="purchaseDate">{{review.dateOfPurchase}}</p>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12" style="margin-top: 3%;">
+        <span *ngFor="let star of stars;">
+          <i class="fa fa-star" #starIcon (click)="selectStar(starIcon,review.productName,list,submitReview,inputComment)" id="{{idx}}{{star}}" [style.color]="color" style="font-size: 26px"></i>
+        </span> 
+      </div>
+      <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12" style="margin-top: 2.5%;">
+        <div>
+            <input class="form-control" type="text" name="review" placeholder="Review Here" id="inputComment{{idx}}" #inputComment value="" (focus)="writeComment(inputComment,submitReview)">
+            <span #commonComment id="{{idx}}" (click)="toggleCommonComments(commonComment)">
+            <i class="fa fa-caret-down" id="dropdownComment"></i></span>
+        </div>
+        <p id="inputCommentError{{idx}}" #errorMsg class="errorMessage">Please Enter/Select a Comment</p>
+        <fieldset class="commonCommentBox"  align="center" id="comments{{idx}}">
+          <input type="radio" id="{{idx}}" #comment (click)="saveComment(comment,review.productName,list,inputComment,submitReview)" name="{{idx}}" value="Excellent"/> Excellent
+          <input type="radio" id="{{idx}}" #comment (click)="saveComment(comment,review.productName,list,inputComment,submitReview)" name="{{idx}}" value="Good" /> Good
+          <input type="radio" id="{{idx}}" #comment (click)="saveComment(comment,review.productName,list,inputComment,submitReview)" name="{{idx}}" value="Average" /> Average
+          <input type="radio" id="{{idx}}" #comment (click)="saveComment(comment,review.productName,list,inputComment,submitReview)" name="{{idx}}" value="Poor" /> Poor
+        </fieldset>
+      </div>
+
+      <div class="col-lg-1" style="margin-top: 3%;">
+        <i class="fa fa-check-circle-o fa-2x" id="{{idx}}" #submitReview style="pointer-events:none;opacity: 0.5" (click)="submitReviewClick(list,review,inputComment,comment,errorMsg)"></i>
+      </div>
+    </div>
+  </li>
+</div>

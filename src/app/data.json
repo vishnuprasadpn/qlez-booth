@@ -1,0 +1,500 @@
+{"products":
+		[
+			{"productDetail": 
+					{	"productName":"Adidas Men Neon Pink White Round Neck Tennis T-shirt",
+						"productCost":2036,
+						"productStar":3,
+						"productOfferPrice":999,
+						"productCount":32,
+						"productViews":854,
+						"productSpec":[{"Quality":""}],
+						"productOffers":["Buy 3 Get 1 Free","Upto 15% Discount on purchase above Rs 10000","Purchase above Rs 6000 and double your reward points","Good day Deal"],
+						"productSizes":["S","M","L","XXL"],
+						"productColors":["#F13AB1","#879BDC","#FF9900"],
+						"productImageUrl":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930275-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-1.jpg",
+						"http://assets.myntassets.com/h_1440,q_95,w_1080/v1/assets/images/1637089/2016/12/5/11480918930223-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-3.jpg",
+						"http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930249-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-2.jpg"],
+						"reviewers":
+							[	{	
+								"customerName":"vishnu coder",
+								"customerComments":"good quality",
+								"starGiven":4,
+								"commentDate":"14-10-2016",
+								"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"sooraj",
+									"customerComments":"nice",
+									"starGiven":3,
+									"commentDate":"24-10-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"javneeth",
+									"customerComments":"awsome",
+									"starGiven":5,
+									"commentDate":"12-11-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"rintu",
+									"customerComments":"nice quality",
+									"starGiven":3,
+									"commentDate":"21-12-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								}
+							]
+					},
+			"similarProducts":[
+					{	"productName":"Gritstones Men's Hooded Cotton T-Shirt",
+						"productCost":3036,
+						"productStar":4,
+						"productOfferPrice":950,
+						"productCount":30,
+						"productViews":9544,
+						"productSpec":[{"Quality":""}],
+						"productOffers":["Upto 15% Discount on purchase above Rs 10000"],
+						"productSizes":["XL"],
+						"productColors":["#F13AB1","#FF9900"],
+						"productImageUrl":["http://ecx.images-amazon.com/images/I/91aPMNX%2BllL._UL1500_.jpg","http://ecx.images-amazon.com/images/I/91IGuPXz-dL._UL1500_.jpg"],
+						"reviewers":
+							[	{	
+								"customerName":"tintu",
+								"customerComments":"good quality",
+								"starGiven":4,
+								"commentDate":"14-10-2016",
+								"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"manu",
+									"customerComments":"nice",
+									"starGiven":3,
+									"commentDate":"24-10-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"greek",
+									"customerComments":"awsome",
+									"starGiven":5,
+									"commentDate":"12-11-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								}
+							]
+					},
+					{	"productName":"Highlander Men's Casual Shirt",
+						"productCost":1532,
+						"productStar":4,
+						"productOfferPrice":1470,
+						"productCount":12,
+						"productViews":745,
+						"productSpec":[{"Quality":""}],
+						"productOffers":["Purchase above Rs 6000 and double your reward points","Good day Deal"],
+						"productSizes":["S","M","L"],
+						"productColors":["#F13AB1","#879BDC","#FF9900"],
+						"productImageUrl":["http://ecx.images-amazon.com/images/I/81eno4rGzQL._UL1500_.jpg","http://ecx.images-amazon.com/images/I/91QgpMw%2BXDL._UL1500_.jpg","http://ecx.images-amazon.com/images/I/81vn7rcbPEL._UL1500_.jpg"],
+						"reviewers":
+							[	{	
+								"customerName":"rahul",
+								"customerComments":"good quality",
+								"starGiven":4,
+								"commentDate":"14-10-2016",
+								"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"rocky",
+									"customerComments":"nice",
+									"starGiven":3,
+									"commentDate":"24-10-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"neeraj",
+									"customerComments":"awsome",
+									"starGiven":5,
+									"commentDate":"12-11-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"krishn",
+									"customerComments":"nice quality",
+									"starGiven":3,
+									"commentDate":"21-12-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								}
+							]
+					}
+				]
+			},
+			{"productDetail": 
+					{	"productName":"Pepe Jeans Blue Slim Jeans Round Bottom",
+						"productCost":1436,
+						"productStar":4,
+						"productOfferPrice":3260,
+						"productCount":15,
+						"productViews":1054,
+						"productSpec":[{"Quality":""}],
+						"productOffers":["Purchase above Rs 6000 and double your reward points","Good day Deal"],
+						"productSizes":["M","L"],
+						"productColors":["#879BDC","#FF9900"],
+						"productImageUrl":["https://n4.sdlcdn.com/imgs/e/d/g/Pepe-Jeans-Blue-Slim-Jeans-SDL481604130-1-99863.jpg","https://n1.sdlcdn.com/imgs/e/d/g/Pepe-Jeans-Blue-Slim-Jeans-SDL481604130-2-bd074.jpg"],
+						"reviewers":
+							[	{	
+								"customerName":"rintu raj",
+								"customerComments":"nice",
+								"starGiven":3,
+								"commentDate":"24-11-2016",
+								"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"sarath",
+									"customerComments":"perfect",
+									"starGiven":5,
+									"commentDate":"02-01-2017",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"Deepak",
+									"customerComments":"awsome",
+									"starGiven":5,
+									"commentDate":"10-09-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								}
+							]
+					},
+			"similarProducts":[
+					{	"productName":"2nd Gritstones Men's Hooded Cotton T-Shirt",
+						"productCost":3036,
+						"productStar":4,
+						"productOfferPrice":2060,
+						"productCount":30,
+						"productViews":9544,
+						"productSpec":[{"Quality":""}],
+						"productOffers":["Upto 15% Discount on purchase above Rs 10000"],
+						"productSizes":["XL"],
+						"productColors":["#F13AB1","#FF9900"],
+						"productImageUrl":["http://ecx.images-amazon.com/images/I/91toAPniMML._UL1500_.jpg","http://ecx.images-amazon.com/images/I/817HShHtBfL._UL1500_.jpg","http://ecx.images-amazon.com/images/I/81czPtY3EeL._UL1500_.jpg"],
+						"reviewers":
+							[	{	
+								"customerName":"tintu",
+								"customerComments":"good quality",
+								"starGiven":4,
+								"commentDate":"14-10-2016",
+								"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"manu",
+									"customerComments":"nice",
+									"starGiven":3,
+									"commentDate":"24-10-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"greek",
+									"customerComments":"awsome",
+									"starGiven":5,
+									"commentDate":"12-11-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								}
+							]
+					},
+					{	"productName":"2nd Highlander Men's Casual Shirt",
+						"productCost":1532,
+						"productStar":4,
+						"productOfferPrice":770,
+						"productCount":12,
+						"productViews":745,
+						"productSpec":[{"Quality":""}],
+						"productOffers":["Purchase above Rs 6000 and double your reward points","Good day Deal"],
+						"productSizes":["S","M","L"],
+						"productColors":["#F13AB1","#879BDC","#FF9900"],
+						"productImageUrl":["http://ecx.images-amazon.com/images/I/81mbZKk%2BfBL._UL1500_.jpg","http://ecx.images-amazon.com/images/I/91QgpMw%2BXDL._UL1500_.jpg","http://ecx.images-amazon.com/images/I/81vn7rcbPEL._UL1500_.jpg"],
+						"reviewers":
+							[	{	
+								"customerName":"rahul",
+								"customerComments":"good quality",
+								"starGiven":4,
+								"commentDate":"14-10-2016",
+								"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"rocky",
+									"customerComments":"nice",
+									"starGiven":3,
+									"commentDate":"24-10-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"neeraj",
+									"customerComments":"awsome",
+									"starGiven":5,
+									"commentDate":"12-11-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								},
+								{
+									"customerName":"krishn",
+									"customerComments":"nice quality",
+									"starGiven":3,
+									"commentDate":"21-12-2016",
+									"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+								}
+							]
+					}
+				]
+			}
+		],
+"customer":{
+				"customerName":"John David Abraham",
+				"customerImage":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+				"customerRewardPoints":250,
+				"customerContact":999885741,
+				"customerAddress":"Dwaraka Jayarama Reddy Layout Banglore",
+				"customerEmail":"tech@pirevolutions.com",
+				"previousPurchases":
+				[
+					{
+						"review":"",
+						"rating":0,
+						"product":
+						{
+							"pid":"1478542365478","manufacturer":"Adidas","name":"T Shirt","offerPrice":1870,
+							"productImageUrl":"http://assets.myntassets.com/h_1440,q_95,w_1080/v1/assets/images/1637089/2016/12/5/11480918930223-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-3.jpg"
+						}
+					},
+					{
+						"review":"",
+						"rating":0,
+						"product":
+						{
+							
+							"pid":"542365478478","manufacturer":"Goose","name":"Tousers","offerPrice":570,
+							"productImageUrl":"http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930249-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-2.jpg"
+						}
+					},
+					{
+						"review":"",
+						"rating":0,
+						"product":
+						{
+							"pid":"1254758423674","manufacturer":"Linen","name":"Jeans","offerPrice":870,
+							"productImageUrl":"http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930275-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-1.jpg"
+						}
+					}
+				]
+			},
+"recentlyViewed":[
+			{	"productName":"ads Shirt",
+				"productCost":3036,
+				"productStar":4,
+				"productOfferPrice":950,
+				"productCount":30,
+				"productViews":9544,
+				"productSpec":[{"Quality":""}],
+				"productOffers":["Upto 15% Discount on purchase above Rs 10000"],
+				"productSizes":["XL"],
+				"productColors":["#F13AB1","#FF9900"],
+				"productImageUrl":["http://ecx.images-amazon.com/images/I/91aPMNX%2BllL._UL1500_.jpg","http://ecx.images-amazon.com/images/I/91IGuPXz-dL._UL1500_.jpg"],
+				"reviewers":
+					[	{	
+						"customerName":"tintu",
+						"customerComments":"good quality",
+						"starGiven":4,
+						"commentDate":"14-10-2016",
+						"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						},
+						{
+							"customerName":"manu",
+							"customerComments":"nice",
+							"starGiven":3,
+							"commentDate":"24-10-2016",
+							"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						},
+						{
+							"customerName":"greek",
+							"customerComments":"awsome",
+							"starGiven":5,
+							"commentDate":"12-11-2016",
+							"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						}
+					]
+			},
+			{	"productName":"addasjdsdjnadjns Shirt",
+				"productCost":3036,
+				"productStar":4,
+				"productOfferPrice":950,
+				"productCount":30,
+				"productViews":9544,
+				"productSpec":[{"Quality":""}],
+				"productOffers":["Upto 15% Discount on purchase above Rs 10000"],
+				"productSizes":["XL"],
+				"productColors":["#F13AB1","#FF9900"],
+				"productImageUrl":["http://ecx.images-amazon.com/images/I/91IGuPXz-dL._UL1500_.jpg","http://ecx.images-amazon.com/images/I/91aPMNX%2BllL._UL1500_.jpg"],
+				"reviewers":
+					[	{	
+						"customerName":"tintu",
+						"customerComments":"good quality",
+						"starGiven":4,
+						"commentDate":"14-10-2016",
+						"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						},
+						{
+							"customerName":"manu",
+							"customerComments":"nice",
+							"starGiven":3,
+							"commentDate":"24-10-2016",
+							"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						},
+						{
+							"customerName":"greek",
+							"customerComments":"awsome",
+							"starGiven":5,
+							"commentDate":"12-11-2016",
+							"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						}
+					]
+			},
+			{	"productName":"dksadkasdiij Shirt",
+				"productCost":3036,
+				"productStar":4,
+				"productOfferPrice":950,
+				"productCount":30,
+				"productViews":9544,
+				"productSpec":[{"Quality":""}],
+				"productOffers":["Upto 15% Discount on purchase above Rs 10000"],
+				"productSizes":["XL"],
+				"productColors":["#F13AB1","#FF9900"],
+				"productImageUrl":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930275-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-1.jpg","http://ecx.images-amazon.com/images/I/91IGuPXz-dL._UL1500_.jpg"],
+				"reviewers":
+					[	{	
+						"customerName":"tintu",
+						"customerComments":"good quality",
+						"starGiven":4,
+						"commentDate":"14-10-2016",
+						"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						},
+						{
+							"customerName":"manu",
+							"customerComments":"nice",
+							"starGiven":3,
+							"commentDate":"24-10-2016",
+							"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						},
+						{
+							"customerName":"greek",
+							"customerComments":"awsome",
+							"starGiven":5,
+							"commentDate":"12-11-2016",
+							"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						}
+					]
+			}
+	],
+"customerFavorite":[
+			{	"productName":"sdasdaads Shdasdairt",
+				"productCost":3036,
+				"productStar":4,
+				"productOfferPrice":950,
+				"productCount":30,
+				"productViews":9544,
+				"productSpec":[{"Quality":""}],
+				"productOffers":["Upto 15% Discount on purchase above Rs 10000"],
+				"productSizes":["XL"],
+				"productColors":["#F13AB1","#FF9900"],
+				"productImageUrl":["http://ecx.images-amazon.com/images/I/91IGuPXz-dL._UL1500_.jpg","http://ecx.images-amazon.com/images/I/91aPMNX%2BllL._UL1500_.jpg"],
+				"reviewers":
+					[	{	
+						"customerName":"tintu",
+						"customerComments":"good quality",
+						"starGiven":4,
+						"commentDate":"14-10-2016",
+						"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						},
+						{
+							"customerName":"manu",
+							"customerComments":"nice",
+							"starGiven":3,
+							"commentDate":"24-10-2016",
+							"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						},
+						{
+							"customerName":"greek",
+							"customerComments":"awsome",
+							"starGiven":5,
+							"commentDate":"12-11-2016",
+							"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						}
+					]
+			},
+			{	"productName":"testetstet ns Shirt",
+				"productCost":3036,
+				"productStar":4,
+				"productOfferPrice":950,
+				"productCount":30,
+				"productViews":9544,
+				"productSpec":[{"Quality":""}],
+				"productOffers":["Upto 15% Discount on purchase above Rs 10000"],
+				"productSizes":["XL"],
+				"productColors":["#F13AB1","#FF9900"],
+				"productImageUrl":["http://ecx.images-amazon.com/images/I/91aPMNX%2BllL._UL1500_.jpg","http://ecx.images-amazon.com/images/I/91IGuPXz-dL._UL1500_.jpg"],
+				"reviewers":
+					[	{	
+						"customerName":"tintu",
+						"customerComments":"good quality",
+						"starGiven":4,
+						"commentDate":"14-10-2016",
+						"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						},
+						{
+							"customerName":"manu",
+							"customerComments":"nice",
+							"starGiven":3,
+							"commentDate":"24-10-2016",
+							"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						},
+						{
+							"customerName":"greek",
+							"customerComments":"awsome",
+							"starGiven":5,
+							"commentDate":"12-11-2016",
+							"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						}
+					]
+			},
+			{	"productName":"bansdh dksadkasdiij Shirt",
+				"productCost":3036,
+				"productStar":4,
+				"productOfferPrice":950,
+				"productCount":30,
+				"productViews":9544,
+				"productSpec":[{"Quality":""}],
+				"productOffers":["Upto 15% Discount on purchase above Rs 10000"],
+				"productSizes":["XL"],
+				"productColors":["#F13AB1","#FF9900"],
+				"productImageUrl":["http://ecx.images-amazon.com/images/I/91IGuPXz-dL._UL1500_.jpg","http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930275-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-1.jpg"],
+				"reviewers":
+					[	{	
+						"customerName":"tintu",
+						"customerComments":"good quality",
+						"starGiven":4,
+						"commentDate":"14-10-2016",
+						"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						},
+						{
+							"customerName":"manu",
+							"customerComments":"nice",
+							"starGiven":3,
+							"commentDate":"24-10-2016",
+							"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						},
+						{
+							"customerName":"greek",
+							"customerComments":"awsome",
+							"starGiven":5,
+							"commentDate":"12-11-2016",
+							"customerImageUrl":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg"
+						}
+					]
+			}
+	]
+
+		
+	}

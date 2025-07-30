@@ -1,0 +1,56 @@
+<i class="fa fa-times fa-4x" aria-hidden="true" style="position: absolute;right: 5%;cursor: pointer" (click)="backToWelcome()"></i>
+
+<div class="container animate-fade1" align="center" style="margin-top: 5%" *ngIf="NoCustIDFound">
+	<h1>Sorry No Customer ID was found !</h1>
+	
+	<br><br><br>
+	<p style="font-size: 25px">Please Register with us to Enjoy our Qlez Booth Magic</p>
+	<br><br><br>
+
+	<p style="font-size: 21px">Already Registered! Forgot Card ?? <a (click)="openForgotIDOverlay()">Please Click Here</a></p>	
+	<br><br>
+
+	<h2 style="color: #000;text-align: center">{{idleState}}</h2>    
+</div>
+
+<br>
+
+<div class="row animate-fade1" *ngIf="!NoCustIDFound"  align="center">
+    <h2 class="modal-title">Forgot Card Login</h2>
+  	<br>
+    <div class="modal-body container content" style="color: #fff" align="center">
+      	<table class="table">
+       		<tr>
+           		<td align="center" (click)="closeMessage()">
+           			<input class="form-control" #contact type="number" name="" placeholder="Contact Number">
+           			<span style="font-size: 17px;padding: 5px;" id="contactError">Please Enter Valid Contact</span>			
+           		</td>
+           		<td align="center" (click)="closeMessage()">
+           			<input class="form-control" #password type="password" name="" placeholder="Pass-Code">
+           		</td>
+       		</tr>
+       	</table>
+        <br><br>
+        <button id="passCodeLoginButton" class="form-control" (click)="loginCustomer(contact,password)">Login</button>
+		<br><br>
+		<h2 style="text-align: center;color: #000">{{idleState}}</h2>    
+		<div class="alert" id="errorMessage" style="width: 50%;text-align: center;font-size: 24px;" (click)="closeMessage()">Please Enter Your Input to Login
+		</div>
+   		<div class="alert" id="customerNotFoundMessage" style="width: 70%;text-align: center;font-size: 24px;" (click)="closeMessage()">Sorry Entered Details are In-valid ! 		Please try Again
+		</div>
+    </div> 	
+</div>
+
+<svg id="loaderDiv" width="70" height="20">
+	<circle cx="10" cy="10" r="0">
+		<animate attributeName="r" from="0" to="10" values="0;10;10;10;0" dur="1000ms" repeatCount="indefinite" />
+	</circle>
+	<circle cx="35" cy="10" r="0">
+		<animate attributeName="r" from="0" to="10" values="0;10;10;10;0" begin="200ms" dur="1000ms" repeatCount="indefinite" />
+	</circle>
+	<circle cx="60" cy="10" r="0">
+		<animate attributeName="r" from="0" to="10" values="0;10;10;10;0" begin="400ms" dur="1000ms" repeatCount="indefinite" />
+	</circle>
+</svg>
+
+

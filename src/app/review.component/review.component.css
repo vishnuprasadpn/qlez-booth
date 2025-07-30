@@ -1,0 +1,195 @@
+/*Bubbles Loading*/
+#fountainG{
+  position:relative;
+  width:144px;
+  height:17px;
+  margin:auto;
+}
+.thumbnail {    width: 135px;
+    height: 160px;}
+.fountainG{
+  position:absolute;
+  top:0;
+  background-color:rgba(230,224,37,0.72);
+  width:17px;
+  height:17px;
+  animation-name:bounce_fountainG;
+    -o-animation-name:bounce_fountainG;
+    -ms-animation-name:bounce_fountainG;
+    -webkit-animation-name:bounce_fountainG;
+    -moz-animation-name:bounce_fountainG;
+  animation-duration:1.5s;
+    -o-animation-duration:1.5s;
+    -ms-animation-duration:1.5s;
+    -webkit-animation-duration:1.5s;
+    -moz-animation-duration:1.5s;
+  animation-iteration-count:infinite;
+    -o-animation-iteration-count:infinite;
+    -ms-animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite;
+  animation-direction:normal;
+    -o-animation-direction:normal;
+    -ms-animation-direction:normal;
+    -webkit-animation-direction:normal;
+    -moz-animation-direction:normal;
+  transform:scale(.3);
+    -o-transform:scale(.3);
+    -ms-transform:scale(.3);
+    -webkit-transform:scale(.3);
+    -moz-transform:scale(.3);
+  border-radius:11px;
+    -o-border-radius:11px;
+    -ms-border-radius:11px;
+    -webkit-border-radius:11px;
+    -moz-border-radius:11px;
+}
+
+#fountainG_1{
+  left:0;
+  animation-delay:0.6s;
+    -o-animation-delay:0.6s;
+    -ms-animation-delay:0.6s;
+    -webkit-animation-delay:0.6s;
+    -moz-animation-delay:0.6s;
+}
+
+#fountainG_2{
+  left:18px;
+  animation-delay:0.75s;
+    -o-animation-delay:0.75s;
+    -ms-animation-delay:0.75s;
+    -webkit-animation-delay:0.75s;
+    -moz-animation-delay:0.75s;
+}
+
+#fountainG_3{
+  left:36px;
+  animation-delay:0.9s;
+    -o-animation-delay:0.9s;
+    -ms-animation-delay:0.9s;
+    -webkit-animation-delay:0.9s;
+    -moz-animation-delay:0.9s;
+}
+
+#fountainG_4{
+  left:54px;
+  animation-delay:1.05s;
+    -o-animation-delay:1.05s;
+    -ms-animation-delay:1.05s;
+    -webkit-animation-delay:1.05s;
+    -moz-animation-delay:1.05s;
+}
+
+#fountainG_5{
+  left:72px;
+  animation-delay:1.2s;
+    -o-animation-delay:1.2s;
+    -ms-animation-delay:1.2s;
+    -webkit-animation-delay:1.2s;
+    -moz-animation-delay:1.2s;
+}
+
+#fountainG_6{
+  left:90px;
+  animation-delay:1.35s;
+    -o-animation-delay:1.35s;
+    -ms-animation-delay:1.35s;
+    -webkit-animation-delay:1.35s;
+    -moz-animation-delay:1.35s;
+}
+
+#fountainG_7{
+  left:108px;
+  animation-delay:1.5s;
+    -o-animation-delay:1.5s;
+    -ms-animation-delay:1.5s;
+    -webkit-animation-delay:1.5s;
+    -moz-animation-delay:1.5s;
+}
+
+#fountainG_8{
+  left:126px;
+  animation-delay:1.64s;
+    -o-animation-delay:1.64s;
+    -ms-animation-delay:1.64s;
+    -webkit-animation-delay:1.64s;
+    -moz-animation-delay:1.64s;
+}
+
+
+
+@keyframes bounce_fountainG{
+  0%{
+  transform:scale(1);
+    background-color:rgb(41,230,79);
+  }
+
+  100%{
+  transform:scale(.3);
+    background-color:rgba(46,29,235,0.25);
+  }
+}
+
+@-o-keyframes bounce_fountainG{
+  0%{
+  -o-transform:scale(1);
+    background-color:rgb(41,230,79);
+  }
+
+  100%{
+  -o-transform:scale(.3);
+    background-color:rgba(46,29,235,0.25);
+  }
+}
+
+@-ms-keyframes bounce_fountainG{
+  0%{
+  -ms-transform:scale(1);
+    background-color:rgb(41,230,79);
+  }
+
+  100%{
+  -ms-transform:scale(.3);
+    background-color:rgba(46,29,235,0.25);
+  }
+}
+
+@-webkit-keyframes bounce_fountainG{
+  0%{
+  -webkit-transform:scale(1);
+    background-color:rgb(41,230,79);
+  }
+
+  100%{
+  -webkit-transform:scale(.3);
+    background-color:rgba(46,29,235,0.25);
+  }
+}
+
+@-moz-keyframes bounce_fountainG{
+  0%{
+  -moz-transform:scale(1);
+    background-color:rgb(41,230,79);
+  }
+
+  100%{
+  -moz-transform:scale(.3);
+    background-color:rgba(46,29,235,0.25);
+  }
+}
+
+.content{overflow-y:scroll;margin-top: 10px}
+.content::-webkit-scrollbar {display: none!important;}
+
+#productName{font-size: 17px;font-weight: 600;padding: 5px 0px;color: #d2691e;margin: 0}
+#productOfferPrice{font-size: 22px;font-weight: 600;color: #006400;}
+#purchaseDate{font-weight: 600;}
+#noItemFoundStatus{font-weight: 600;padding: 19px;margin: 0;color: #ff8c00;font-size: 26px;}
+#dropdownComment{position:absolute;top:2px;right:18px;padding:7px;}
+.commonCommentBox{
+  display: none;
+  position: absolute;
+}
+
+.errorMessage{display: none}

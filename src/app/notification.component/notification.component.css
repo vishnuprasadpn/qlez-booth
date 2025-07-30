@@ -1,0 +1,15 @@
+.notificationList{padding: 0;list-style-type: none;text-align: center;}
+.modal-body{overflow:auto;max-height: 474px;}
+#navigation{background: #C93756;}
+.listLabel{margin:0px;padding: 10px;color: #fff;font-weight: 600;cursor: pointer;font-size: 22px;}
+#offersBlock{display: none;border: 5px solid rgb(212, 49, 50);}
+#reviewsBlock{display: block;}
+.notificationListItem{background: #fff;max-height: 325px;overflow-y: auto;}
+#skipButton{background: #D43132;color: #fff;font-size: 20px;padding: 7px 32px;}
+.notificationListItem::-webkit-scrollbar {display: none!important;}
+#notification-container{margin-top:1%}
+#notification-page-header{font-size: 21px;}
+.offer-decription-value{margin: 0px;font-size: 22px;text-align: left;border-bottom: 1px solid #e27979;
+padding: 14px 0px;}
+.offer-decription-gift-icon{color:#F75004;padding: 2px 5px;font-size: 29px;}
+#notification-modal-footer{right: 30px}

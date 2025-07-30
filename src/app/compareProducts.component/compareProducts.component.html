@@ -1,0 +1,74 @@
+<div class="row">
+	<div class="col-lg-2" style="margin-top: 23px;">
+		<div id="filterParentDiv">
+			<h3>Filter Results</h3>
+			<ul id="featuresList">Select
+				<li (click)="toggleFeature('offerPrice')" id="offerPrice">Price</li>
+				<li (click)="toggleFeature('productOffers')" id="productOffers">Offers</li>
+				<li (click)="toggleFeature('productRating')" id="productRating">Rating</li>
+				<li (click)="toggleFeature('productDetails')" id="productDetails">Features</li>
+				<li (click)="toggleFeature('productManufacturer')" id="productManufacturer">Manufacture</li>
+				<li class="restrictedOption">Other</li>
+				<li class="restrictedOption">Expert Rating</li>
+				<li class="restrictedOption">Expert Review</li>
+			</ul>
+		</div>
+		<button class="form-control" id="backButton" (click)="backtoCompareSelector()"> <i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to Compare Selector</button>
+	</div>
+
+	<div class="col-lg-10">
+	
+		<div class="scrollmenu">
+			<div id="productDt" *ngFor="let product of product;let idx = index">
+				<i class="fa fa-heart favoriteIcon" id="{{product.productName}}" #favoriteIcon 
+				(click)="addToFavorites(favoriteIcon,product)"></i>
+
+				<div (click)="showProductInDetail(product)" style="margin-top: -61px;">
+					<table class="table">
+						<tr>
+							<td align="center"  id="productName">
+								<b style="white-space: initial;">{{product.productName}}</b>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" style="min-height: 346px;background-color: #fff;max-height: 347px;">	
+								<img src="{{product.productImage}}" class="thumbnail">
+							</td>
+						</tr>
+					</table>
+					
+					<div id="toggleDetailsDiv" class="content" *ngIf="productManufacturer || offerPrice|| productRating || productOffers || productDetails">
+						<p *ngIf="productManufacturer" id="productManufacturerValue">{{product.productManufacturer}}</p>
+						<p *ngIf="offerPrice" id="offerPriceLabel">Offer Price : 
+							<span id="offerPriceValue">₹ {{product.productOfferPrice}}</span>
+						</p>
+						
+						<p *ngIf="productRating" id="productRatingLabel">Rating &nbsp;
+							<span *ngFor="let st of stars">
+					            <i class="fa fa-star" #pStar id="{{idx}}{{st}}"></i>
+					   		</span>
+					    </p>
+					    
+					    <ul *ngIf="productOffers" id="offerList">
+					    	<li *ngFor="let offer of product.productOffers">
+					    		<span *ngIf="offer!=null">{{offer.description}}</span>
+					    	</li>
+					    </ul>
+
+						<div *ngIf="productDetails" id="productDetail" align="center">
+							<div *ngFor="let viewMain of viewProductDetails" > 
+		    					<h4><b style="white-space: initial;font-size: 20px;font-weight: 600;">{{viewMain.main}}</b></h4>
+				    			<div *ngFor="let sub of viewMain.sub">
+				    				<p style="white-space: normal;"><b><i>{{sub.subname}}</i></b></p> 
+				    				<p style="white-space: initial;"><i style="white-space: initial;">{{sub.subValue}}</i></p>
+				   				</div>
+				    		</div>
+						</div>
+				    </div>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer></footer>

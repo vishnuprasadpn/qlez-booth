@@ -1,0 +1,33 @@
+<div class="container modal-content" id="notification-container">
+  <p class="modal-header text-center">
+    <b id="notification-page-header" class="animate-fade1">NOTIFICATIONS</b>
+  </p>
+  <div class="modal-body animate-fade2">
+    <div id="navigation">
+        <ul class="notificationList">
+            <li>
+                <p class="listLabel" (click)="openSection('reviewsBlock')">Pending Reviews</p>
+                <ul class="notificationList" id="reviewsBlock">
+                	<div class="notificationListItem">
+                		<review></review>
+                	</div>
+                </ul>
+            </li>
+            <li>
+                <p class="listLabel" (click)="openSection('offersBlock')">Store Offers</p>
+                <ul class="notificationList" id="offersBlock">
+                  <li class="notificationListItem" *ngFor="let offer of generalOffers">
+                    <p class="offer-decription-value">
+                        <i class="fa fa-gift offer-decription-gift-icon" aria-hidden="true"></i> &nbsp;{{offer.description}}</p>
+                  </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+  </div>
+  <div class="modal-footer" id="notification-modal-footer">
+    <button type="button" class="btn btn-default" id="skipButton" (click)="openBucket()">Skip Notifications</button>
+  </div>
+</div>
+
+<footer id="footer"></footer>

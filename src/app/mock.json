@@ -1,0 +1,792 @@
+{
+	"reviews" :[
+					{
+						"reviewID": 1245,
+						"productName" : "Adidas Men Neon Pink White Round Neck Tennis T-shirt",
+						"productImage" : "http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930275-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-1.jpg",
+						"dateOfPurchase" : "24-12-2016",
+						"productSP" : "1250",
+						"ratingGiven":null,
+						"reviewComment":null
+					},
+					{
+						"reviewID": 1245,
+						"productName" : "Gritstones Men's Hooded Cotton T-Shirt",
+						"productImage" : "http://ecx.images-amazon.com/images/I/91IGuPXz-dL._UL1500_.jpg",
+						"dateOfPurchase" : "01-12-2016",
+						"productSP" : "1470",
+						"ratingGiven":null,
+						"reviewComment":null
+					}
+				],
+	"bucketProducts" : 
+				[
+					{
+						"productID" : "ABC123456789",
+						"productName": " Puma Half sleve shirt",
+						"productRating" : [52,14,5,2,5],
+						"productManufacturer":"Puma Designers",
+						"productReviews":531,
+						"productOfferPrice": 1254,
+						"productCost": 1450,
+						"productGroup": "Men",
+						"productCategory" : "T-Shirt",
+						"productSubCategory": "full sleeve",
+						"productOffers": ["20% off on 2000 Rs purchase"],
+						"productColors":{	
+											"Green":{
+														"selected":true,
+														"imageLinks":["http://ecx.images-amazon.com/images/I/91aPMNX%2BllL._UL1500_.jpg"]
+													},
+											"Red":	{
+														"selected":false,
+														"imageLinks":["http://ecx.images-amazon.com/images/I/91IGuPXz-dL._UL1500_.jpg"]
+													} 
+										},
+						"productSizesAvailable":{
+													"S":{"selected":true,"count":241},
+													"M":{"selected":false,"count":154}
+												},
+						"productReviewers": [
+												{
+												"customerName": "Sooraj",
+												"customerRating": 3,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "nice",
+												"reviewDate" : "24-12-2016"},
+												{
+												"customerName": "Javneet",
+												"customerRating": 4,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "awsome",
+												"reviewDate" : "15-02-2017"
+												}
+											],
+						"productDescription" : {
+													"Main Heading1":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading2":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading3":
+													{ 	"SubHead1" : "desp1",
+														"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													}
+
+												}	
+												
+					},
+					{
+						"productID" : "ABC987654321",
+						"productName": " Makehs adidas shirt",
+						"productRating" : [32,25,14,20,10],
+						"productReviews":201,
+						"productOfferPrice": 1254,
+						"productManufacturer":"Adidas Co Designers",
+						"productCost": 1450,
+						"productGroup": "Men",
+						"productCategory" : "T-Shirt",
+						"productSubCategory": "full sleeve",
+						"productOffers": ["Buy 2 Get 1 Free" , "20% off on 2000 Rs purchase"],
+						"productColors":{
+											"Red":
+												{
+													"selected":true,
+													"imageLinks":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930275-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-1.jpg"]},
+											"Blue":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/h_1440,q_95,w_1080/v1/assets/images/1637089/2016/12/5/11480918930223-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-3.jpg"]
+												},
+											"Green":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930249-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-2.jpg"]
+												}
+										},
+						"productSizesAvailable" :{
+													"M":{"selected":false,"count":120},
+													"XL":{"selected":true,"count":154}
+												}
+												,
+						"productReviewers": [
+												{
+												"customerName": "Vishnu",
+												"customerRating": 4,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "good",
+												"reviewDate" : "14-02-2017"},
+												{
+												"customerName": "Bhavadasan",
+												"customerRating": 5,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "awsome",
+												"reviewDate" : "25-02-2017"
+												}
+											],
+						"productDescription" : 	{
+													"Main Heading1":
+														{ 	"SubHead1" : "desp1",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading2":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2"
+															
+														},
+
+													"Main Heading3":
+													{ 	"SubHead1" : "desp1",
+														"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													},
+
+													"Main Heading4":
+													{ 	"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													}
+															
+												}
+					}
+				],
+	"customer":{
+		"customerID":"A6461RFS235413",
+		"customerName" : "vishnu prasad",
+		"customerImage" : "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+		"customerRewardPoints" : 210,
+		"customerContact" : 8943861660,
+		"customerAddress" : "Dwaraka Hallanayakahalli Banglore Karnataka",
+		"customerEmail" : "vishnuprasad1990@gmail.com"
+	},
+	"productsToCompare":[
+					{
+						"productID" : "JADDDHABC123456789",
+						"productName": " Arrow Bright sleve shirt",
+						"productRating" : [50,24,15,12,15],
+						"productReviews":411,
+						"productOfferPrice": 1102,
+						"productManufacturer":"Arrow Delights",
+						"productCost": 1450,
+						"productGroup": "Men",
+						"productCategory" : "T-Shirt",
+						"productSubCategory": "full sleeve",
+						"productOffers": ["20% off on 2000 Rs purchase"],
+						"productColors":{	
+											"Green":{
+														"selected":true,
+														"imageLinks":["http://ecx.images-amazon.com/images/I/91aPMNX%2BllL._UL1500_.jpg"]
+													},
+											"Red":	{
+														"selected":false,
+														"imageLinks":["http://ecx.images-amazon.com/images/I/91IGuPXz-dL._UL1500_.jpg"]
+													} 
+										},
+						"productSizesAvailable":{
+													"S":{"selected":true,"count":241},
+													"M":{"selected":false,"count":154}
+												},
+						"productReviewers": [
+												{
+												"customerName": "Sooraj",
+												"customerRating": 3,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "nice",
+												"reviewDate" : "24-12-2016"},
+												{
+												"customerName": "Javneet",
+												"customerRating": 4,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "awsome",
+												"reviewDate" : "15-02-2017"
+												}
+											],
+						"productDescription" : {
+													"Main Heading1":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading2":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading3":
+													{ 	"SubHead1" : "desp1",
+														"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													}
+
+												}	
+												
+					},
+					{
+						"productID" : "CABC987654324411",
+						"productName": " Pan AMerica Full sleeve shirt",
+						"productRating" : [12,15,4,5,7],
+						"productReviews":178,
+						"productOfferPrice": 1824,
+						"productManufacturer":"Pan America",
+						"productCost": 1450,
+						"productGroup": "Men",
+						"productCategory" : "T-Shirt",
+						"productSubCategory": "full sleeve",
+						"productOffers": ["Buy 2 Get 1 Free" , "20% off on 2000 Rs purchase"],
+						"productColors":{
+											"Red":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930275-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-1.jpg"]},
+											"Blue":
+												{
+													"selected":true,
+													"imageLinks":["http://assets.myntassets.com/h_1440,q_95,w_1080/v1/assets/images/1637089/2016/12/5/11480918930223-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-3.jpg"]
+												},
+											"Green":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930249-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-2.jpg"]
+												}
+										},
+						"productSizesAvailable" :{
+													"M":{"selected":true,"count":120},
+													"XL":{"selected":false,"count":154}
+												}
+												,
+						"productReviewers": [
+												{
+												"customerName": "Vishnu",
+												"customerRating": 4,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "good",
+												"reviewDate" : "14-02-2017"},
+												{
+												"customerName": "Bhavadasan",
+												"customerRating": 5,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "awsome",
+												"reviewDate" : "25-02-2017"
+												}
+											],
+						"productDescription" : 	{
+													"Main Heading1":
+														{ 	"SubHead1" : "desp1",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading2":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2"
+															
+														},
+
+													"Main Heading3":
+													{ 	"SubHead1" : "desp1",
+														"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													},
+
+													"Main Heading4":
+													{ 	"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													}
+															
+												}
+					},
+
+					{
+						"productID" : "CABC9478587654324411",
+						"productName": " Cristo Slan Full sleeve shirt",
+						"productRating" : [12,15,4,5,7],
+						"productReviews":178,
+						"productOfferPrice": 1654,
+						"productManufacturer":"Cristo Designers",
+						"productCost": 1450,
+						"productGroup": "Men",
+						"productCategory" : "T-Shirt",
+						"productSubCategory": "full sleeve",
+						"productOffers": ["Buy 2 Get 1 Free" , "20% off on 2000 Rs purchase"],
+						"productColors":{
+											"Red":
+												{
+													"selected":true,
+													"imageLinks":["http://ecx.images-amazon.com/images/I/91aPMNX%2BllL._UL1500_.jpg"]},
+											"Blue":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/h_1440,q_95,w_1080/v1/assets/images/1637089/2016/12/5/11480918930223-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-3.jpg"]
+												},
+											"Green":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930249-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-2.jpg"]
+												}
+										},
+						"productSizesAvailable" :{
+													"M":{"selected":true,"count":120},
+													"XL":{"selected":false,"count":154}
+												}
+												,
+						"productReviewers": [
+												{
+												"customerName": "Vishnu",
+												"customerRating": 4,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "good",
+												"reviewDate" : "14-02-2017"},
+												{
+												"customerName": "Bhavadasan",
+												"customerRating": 5,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "awsome",
+												"reviewDate" : "25-02-2017"
+												}
+											],
+						"productDescription" : 	{
+													"Main Heading1":
+														{ 	"SubHead1" : "desp1",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading2":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2"
+															
+														},
+
+													"Main Heading3":
+													{ 	"SubHead1" : "desp1",
+														"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													},
+
+													"Main Heading4":
+													{ 	"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													}
+															
+												}
+					}
+				],
+	"favoriteProducts":[
+					{
+						"productID" : "JADDDHABC123456789",
+						"productName": " Product 1",
+						"productRating" : [50,24,15,12,15],
+						"productReviews":411,
+						"productOfferPrice": 1102,
+						"productManufacturer":"Arrow Delights",
+						"productCost": 1450,
+						"productGroup": "Men",
+						"productCategory" : "T-Shirt",
+						"productSubCategory": "full sleeve",
+						"productOffers": ["20% off on 2000 Rs purchase"],
+						"productColors":{	
+											"Green":{
+														"selected":true,
+														"imageLinks":["http://ecx.images-amazon.com/images/I/91aPMNX%2BllL._UL1500_.jpg"]
+													},
+											"Red":	{
+														"selected":false,
+														"imageLinks":["http://ecx.images-amazon.com/images/I/91IGuPXz-dL._UL1500_.jpg"]
+													} 
+										},
+						"productSizesAvailable":{
+													"S":{"selected":true,"count":241},
+													"M":{"selected":false,"count":154}
+												},
+						"productReviewers": [
+												{
+												"customerName": "Sooraj",
+												"customerRating": 3,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "nice",
+												"reviewDate" : "24-12-2016"},
+												{
+												"customerName": "Javneet",
+												"customerRating": 4,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "awsome",
+												"reviewDate" : "15-02-2017"
+												}
+											],
+						"productDescription" : {
+													"Main Heading1":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading2":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading3":
+													{ 	"SubHead1" : "desp1",
+														"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													}
+
+												}	
+												
+					},
+					{
+						"productID" : "CABC987654324411",
+						"productName": " Product 2",
+						"productRating" : [12,15,4,5,7],
+						"productReviews":178,
+						"productOfferPrice": 1824,
+						"productManufacturer":"Pan America",
+						"productCost": 1450,
+						"productGroup": "Men",
+						"productCategory" : "T-Shirt",
+						"productSubCategory": "full sleeve",
+						"productOffers": ["Buy 2 Get 1 Free" , "20% off on 2000 Rs purchase"],
+						"productColors":{
+											"Red":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930275-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-1.jpg"]},
+											"Blue":
+												{
+													"selected":true,
+													"imageLinks":["http://assets.myntassets.com/h_1440,q_95,w_1080/v1/assets/images/1637089/2016/12/5/11480918930223-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-3.jpg"]
+												},
+											"Green":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930249-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-2.jpg"]
+												}
+										},
+						"productSizesAvailable" :{
+													"M":{"selected":true,"count":120},
+													"XL":{"selected":false,"count":154}
+												}
+												,
+						"productReviewers": [
+												{
+												"customerName": "Vishnu",
+												"customerRating": 4,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "good",
+												"reviewDate" : "14-02-2017"},
+												{
+												"customerName": "Bhavadasan",
+												"customerRating": 5,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "awsome",
+												"reviewDate" : "25-02-2017"
+												}
+											],
+						"productDescription" : 	{
+													"Main Heading1":
+														{ 	"SubHead1" : "desp1",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading2":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2"
+															
+														},
+
+													"Main Heading3":
+													{ 	"SubHead1" : "desp1",
+														"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													},
+
+													"Main Heading4":
+													{ 	"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													}
+															
+												}
+					},
+
+					{
+						"productID" : "CABC9478587654324411",
+						"productName": " Product 3",
+						"productRating" : [12,15,4,5,7],
+						"productReviews":178,
+						"productOfferPrice": 1654,
+						"productManufacturer":"Cristo Designers",
+						"productCost": 1450,
+						"productGroup": "Men",
+						"productCategory" : "T-Shirt",
+						"productSubCategory": "full sleeve",
+						"productOffers": ["Buy 2 Get 1 Free" , "20% off on 2000 Rs purchase"],
+						"productColors":{
+											"Red":
+												{
+													"selected":true,
+													"imageLinks":["http://ecx.images-amazon.com/images/I/91aPMNX%2BllL._UL1500_.jpg"]},
+											"Blue":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/h_1440,q_95,w_1080/v1/assets/images/1637089/2016/12/5/11480918930223-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-3.jpg"]
+												},
+											"Green":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930249-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-2.jpg"]
+												}
+										},
+						"productSizesAvailable" :{
+													"M":{"selected":true,"count":120},
+													"XL":{"selected":false,"count":154}
+												}
+												,
+						"productReviewers": [
+												{
+												"customerName": "Vishnu",
+												"customerRating": 4,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "good",
+												"reviewDate" : "14-02-2017"},
+												{
+												"customerName": "Bhavadasan",
+												"customerRating": 5,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "awsome",
+												"reviewDate" : "25-02-2017"
+												}
+											],
+						"productDescription" : 	{
+													"Main Heading1":
+														{ 	"SubHead1" : "desp1",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading2":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2"
+															
+														},
+
+													"Main Heading3":
+													{ 	"SubHead1" : "desp1",
+														"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													},
+
+													"Main Heading4":
+													{ 	"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													}
+															
+												}
+					}
+				],
+	"lastViewedProducts":[
+					{
+						"productID" : "JADDDHABC123456789",
+						"productName": " Product 4",
+						"productRating" : [0,0,0,0,50],
+						"productReviews":411,
+						"productOfferPrice": 1102,
+						"productManufacturer":"Arrow Delights",
+						"productCost": 1450,
+						"productGroup": "Men",
+						"productCategory" : "T-Shirt",
+						"productSubCategory": "full sleeve",
+						"productOffers": ["20% off on 2000 Rs purchase"],
+						"productColors":{	
+											"Green":{
+														"selected":true,
+														"imageLinks":["http://ecx.images-amazon.com/images/I/91aPMNX%2BllL._UL1500_.jpg"]
+													},
+											"Red":	{
+														"selected":false,
+														"imageLinks":["http://ecx.images-amazon.com/images/I/91IGuPXz-dL._UL1500_.jpg"]
+													} 
+										},
+						"productSizesAvailable":{
+													"S":{"selected":true,"count":241},
+													"M":{"selected":false,"count":154}
+												},
+						"productReviewers": [
+												{
+												"customerName": "Sooraj",
+												"customerRating": 3,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "nice",
+												"reviewDate" : "24-12-2016"},
+												{
+												"customerName": "Javneet",
+												"customerRating": 4,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "awsome",
+												"reviewDate" : "15-02-2017"
+												}
+											],
+						"productDescription" : {
+													"Main Heading1":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading2":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading3":
+													{ 	"SubHead1" : "desp1",
+														"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													}
+
+												}	
+												
+					},
+					{
+						"productID" : "CABC987654324411",
+						"productName": " Product 5",
+						"productRating" : [0,0,4,0,0],
+						"productReviews":178,
+						"productOfferPrice": 1824,
+						"productManufacturer":"Pan America",
+						"productCost": 1450,
+						"productGroup": "Men",
+						"productCategory" : "T-Shirt",
+						"productSubCategory": "full sleeve",
+						"productOffers": ["Buy 2 Get 1 Free" , "20% off on 2000 Rs purchase"],
+						"productColors":{
+											"Red":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930275-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-1.jpg"]},
+											"Blue":
+												{
+													"selected":true,
+													"imageLinks":["http://assets.myntassets.com/h_1440,q_95,w_1080/v1/assets/images/1637089/2016/12/5/11480918930223-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-3.jpg"]
+												},
+											"Green":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930249-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-2.jpg"]
+												}
+										},
+						"productSizesAvailable" :{
+													"M":{"selected":true,"count":120},
+													"XL":{"selected":false,"count":154}
+												}
+												,
+						"productReviewers": [
+												{
+												"customerName": "Vishnu",
+												"customerRating": 4,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "good",
+												"reviewDate" : "14-02-2017"},
+												{
+												"customerName": "Bhavadasan",
+												"customerRating": 5,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "awsome",
+												"reviewDate" : "25-02-2017"
+												}
+											],
+						"productDescription" : 	{
+													"Main Heading1":
+														{ 	"SubHead1" : "desp1",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading2":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2"
+															
+														},
+
+													"Main Heading3":
+													{ 	"SubHead1" : "desp1",
+														"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													},
+
+													"Main Heading4":
+													{ 	"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													}
+															
+												}
+					},
+
+					{
+						"productID" : "CABC9478587654324411",
+						"productName": " Product 6",
+						"productRating" : [315,0,0,0,0],
+						"productReviews":178,
+						"productOfferPrice": 1654,
+						"productManufacturer":"Cristo Designers",
+						"productCost": 1450,
+						"productGroup": "Men",
+						"productCategory" : "T-Shirt",
+						"productSubCategory": "full sleeve",
+						"productOffers": ["Buy 2 Get 1 Free" , "20% off on 2000 Rs purchase"],
+						"productColors":{
+											"Red":
+												{
+													"selected":true,
+													"imageLinks":["http://ecx.images-amazon.com/images/I/91aPMNX%2BllL._UL1500_.jpg"]},
+											"Blue":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/h_1440,q_95,w_1080/v1/assets/images/1637089/2016/12/5/11480918930223-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-3.jpg"]
+												},
+											"Green":
+												{
+													"selected":false,
+													"imageLinks":["http://assets.myntassets.com/w_480,q_90/assets/images/1637089/2016/12/5/11480918930249-Adidas-Men-Pink-Colour-Blocked-Round-Neck-T-Shirt-5981480918930045-2.jpg"]
+												}
+										},
+						"productSizesAvailable" :{
+													"M":{"selected":true,"count":120},
+													"XL":{"selected":false,"count":154}
+												}
+												,
+						"productReviewers": [
+												{
+												"customerName": "Vishnu",
+												"customerRating": 4,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "good",
+												"reviewDate" : "14-02-2017"},
+												{
+												"customerName": "Bhavadasan",
+												"customerRating": 5,
+												"customerImage": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/08e/246/28ca3a5.jpg",
+												"customerComment": "awsome",
+												"reviewDate" : "25-02-2017"
+												}
+											],
+						"productDescription" : 	{
+													"Main Heading1":
+														{ 	"SubHead1" : "desp1",
+															"SubHead3" : "desp3"
+														},
+													"Main Heading2":
+														{ 	"SubHead1" : "desp1",
+															"SubHead2" : "desp2"
+															
+														},
+
+													"Main Heading3":
+													{ 	"SubHead1" : "desp1",
+														"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													},
+
+													"Main Heading4":
+													{ 	"SubHead2" : "desp2",
+														"SubHead3" : "desp3"
+													}
+															
+												}
+					}
+				]
+
+}

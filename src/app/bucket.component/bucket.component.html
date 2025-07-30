@@ -1,0 +1,23 @@
+<div class="row scrollSize contentScrollX" style="margin-top: 40px;padding: 5px;overflow-x: auto;background-color: rgba(255, 221, 255, 0.68)">
+	<div id="backgroundOpacityInnerDiv"></div>
+	<h2 style="font-weight: 700;">My Bucket Products</h2>
+
+	<table class="table">
+		<tr>
+			<td *ngFor="let myProduct of myBucket" id="productsContainer" (click)="selectedProduct(myProduct.productID)" width="25%">
+				<div class="row">
+					<div class="col-lg-6" align="center" style="padding-left:0px;padding-right:0px">
+						<img src="{{myProduct.productImage}}" class="thumbnail" style="float:right">
+					</div>
+					<div class="col-lg-6" style="background-color: #fff;padding:0px 5px;padding-bottom: 3px;min-height: 230px;max-height: 230px;text-align: left;max-width: 270px;">
+						<p id="productName" #productName style="font-weight: 600;font-size: 18px;margin:0px;max-width: 250px;min-height: 125px;padding: 14px 0px;">{{myProduct.productName}}</p>
+						<div id="detailDiv">		
+							<span  id="offerpriceText">OfferPrice <br></span>
+							<span class="costText">₹ {{myProduct.productOfferPrice}}</span>
+					    </div>
+					</div>
+				</div>	
+			</td>
+		</tr>
+	</table>
+</div>

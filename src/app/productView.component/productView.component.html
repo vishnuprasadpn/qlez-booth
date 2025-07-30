@@ -1,0 +1,259 @@
+<div class="row">
+	<div class="col-lg-6 col-md-6">
+		<div style="padding-left: 76px;">	
+			<p id="productName">{{product.item.item_name}}</p>
+			<div *ngIf="displayStars" style="color:black;font-size:22px;">
+				<span *ngFor="let st of stars">
+               		<i class="fa fa-star" #star id="{{st}}"></i>
+            	</span>
+    			<i class="fa fa-caret-down" (click)="starTableDropdown('starBox')"></i>
+            	<div id="starBox" align="center">
+            		<div>
+	            		<span *ngFor="let star of stars">
+	            			<i class="fa fa-star" #Star5 id="{{star}}"></i> 
+	            		</span>&nbsp; {{star5Count}}<br>
+	            
+	            		<span *ngFor="let star of stars">
+	            			<i class="fa fa-star" #Star4 id="{{star}}"></i> 
+	            		</span>&nbsp; {{star4Count}}<br>
+	            
+	            		<span *ngFor="let star of stars">
+	            			<i class="fa fa-star" #Star3 id="{{star}}"></i>  
+	            		</span>&nbsp; {{star3Count}}<br>
+	            
+	            		<span *ngFor="let star of stars">
+	            			<i class="fa fa-star" #Star2 id="{{star}}"></i>
+	            		</span>&nbsp; {{star2Count}}<br>
+	            
+	            		<span *ngFor="let star of stars">
+	            			<i class="fa fa-star" #Star1 id="{{star}}"></i> 
+	            		</span>&nbsp; {{star1Count}}
+	            
+	            	</div>  		
+            	</div>	
+            	<span style="font-size: 20px;">&nbsp;<u>{{productReviews}} Reviews</u></span>
+			</div>
+		</div>
+	
+		<div class="row">
+			<div class="col-lg-6 col-md-6" style="margin-top: 2%">	
+				<div id="image-gallery" class="cf" align="center">
+					 <img id="mainImg" class="pannable-image" #mainImg src="">
+					 <i class="fa fa-heart favoriteIcon" id="favoriteIcon"  #favoriteIcon (click)="addToFavorites(favoriteIcon,product)"></i>
+				</div>
+				
+				<div align="center" style="margin-top: 13px;">
+					 <div class="content allImagesDiv">
+						<span *ngFor="let image of productPrimeImage;let num = index" style="padding:0px 5px">
+							<img id="{{num}}" src="{{image}}" width="60px" height="70px" style="margin: 10px;border: 5px solid #fff;border-radius: 5px;" class="thumbImages" #pimage (click)="changeImage(pimage)">
+						</span>
+					</div> 
+				</div>
+			</div>
+	
+			<div class="col-lg-6 col-md-6" style="margin-top:21px;color:black;">
+				<div id="productPrimeDetails">
+				<span id="offerPriceText">OfferPrice: </span>
+				<span id="offerPrice">₹ {{product.item.item_sp}}</span>
+				<p>
+					<span>
+						<s id="productCost">₹ {{product.item.item_mrp}}</s>
+					</span>
+					<span id="percentOffSpan">({{percentageOff}}% OFF)</span>
+				</p>
+				<hr>
+				<div class="row" id="colorDiv">
+					<div class="col-lg-8 col-md-8">
+						<a class="productColor" id="{{color}}" *ngFor="let color of colors" #productColor (click)="colorChange(productColor)"></a>
+					</div> 
+	
+					<div class="col-lg-4 col-md-4" align="right">
+						<div style="float:left;font-size:22px;">only&nbsp;</div>
+						<div style="float:left;background: green;padding: 0px 10px;color: #fff;font-size: 22px;border-radius: 4px;">{{productCount}}</div> 
+						<div style="float:left;font-size:22px;">&nbsp;left</div>
+					</div>
+				</div>
+				<br>	
+				<div class="row" *ngIf="product.sizeCount!=null">	
+					<div class="col-lg-4 col-md-4" style="font-size: 22px;">size select</div>
+					<div class="col-lg-8 col-md-8" style="font-size: 22px;">Not sure? &nbsp;
+						<a id="notSureText" style="font-size: 22px;cursor: pointer;" data-toggle="modal" data-target="#sizechart">See Chart Size</a>
+					</div>
+				</div>
+	
+				<div align="center" *ngIf="product.sizeCount!=null">
+					<div>
+						<i id="sizeSelector" #selector class="fa fa-caret-down" style="display: hidden"></i>
+					</div>
+			
+					<div class="scrollSize contentScrollX" id="sizeMainDiv">	
+						<div id="sizeDiv">
+		  					<div class="sizeElement" *ngFor="let productSize of sizesAvailable;let 
+		  					idx = index" #pdtSize id="{{idx}}" (click)="selectSize(pdtSize,selector)">{{productSize}}</div>
+		  				</div>
+					</div>
+				</div>
+				<hr>
+				<div class="content" id="offersDiv" >
+		    		<ul id="offersList" *ngIf="product.offers.length!=0">
+		    			<li *ngFor="let offer of product.offers">
+		    			<i class="fa fa-gift" aria-hidden="true" style="color:#F75004;padding: 2px 5px;"></i> {{offer.description}}</li>
+		    		</ul>
+		  <!--   		<ul id="offersList" *ngIf="generalOffers.length!=0">
+		    			<li *ngFor="let offer of generalOffers">
+		    			<i class="fa fa-gift" aria-hidden="true" style="color:#F75004;padding: 2px 5px;"></i> {{offer.description}}</li>
+		    		</ul>
+		   -->  		
+		    		<p *ngIf="product.offers.length==0" style="text-align: center;color:red;font-size:23px">Sorry No Offers are Currently Available for the Product</p>
+		    		<br><br>
+	    	
+	    		</div>	
+	    	</div>
+	    	<br>	
+	    	<br>
+	    	<br>
+			
+				<div class="row" disabled="noBucketProduct">
+					<div class="col-lg-6" (click)="compareInstore()">
+						<span class="compareIcon" style=" padding: 30px;">
+					    	<i class="fa fa-cart-arrow-down fa-3x navIcons" aria-hidden="true"></i>
+						</span>
+		
+						<p id="compareStoreText" style="padding: 9px 34px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COMPARE IN STORE</p>
+					</div>
+		
+					<div class="col-lg-6">
+						<p id="compareOnlineText" style="    padding: 10px 36px;">COMPARE ONLINE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+						<span class="compareIcon" style="float: right;padding: 27px;">
+							<img src="https://s3-us-west-2.amazonaws.com/qlezboothimages/images/
+							ic_compare_arrows.png" width="50px">
+						</span>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-lg-6 col-md-6" style="color: black">
+		<div class="decriptionDiv" style="width: 95%">
+			<p id="specificationHeadingText">Specifications :</p>
+    		<div class="content" id="specDiv">    
+    			<div *ngFor="let viewMain of viewProductDetails" > 
+	    			<h4><b style="font-size: 20px">{{viewMain.main}}</b></h4>
+	    			<div *ngFor="let sub of viewMain.sub">
+	    				<p><b style="font-size: 17px;">{{sub.subname}}</b> : 
+	    				<i style="font-size: 17px;">{{sub.subValue}}</i></p>
+	    			</div>
+	    		</div>
+    			<br><br>
+    		</div>
+    		<div id="specificationBottomShade"></div>
+		</div>
+		
+		<div class="decriptionDiv" style="width: 95%" id="reviewedCommentsMainDiv">
+			<div class="row text-center" id="reviewFilterHeader">
+				<div id="latestReviews" class="col-lg-4 col-md-4 col-sm-4"
+				(click)="reviewSort('date')">
+					<i class="fa fa-fire reviewFilterIcons"></i>
+				</div>
+		
+				<div id="positiveReviews" class="col-lg-4 col-md-4 col-sm-4" (click)="reviewSort(false)">
+					<i class="fa fa-thumbs-up reviewFilterIcons"></i>
+				</div>
+		
+				<div id="negativeReviews" class="col-lg-4 col-md-4 col-sm-4" (click)="reviewSort(true)">
+					<i class="fa fa-thumbs-down reviewFilterIcons"></i>
+				</div>	
+			</div>
+    	
+    		<div class="content" id="reviewCommentsDiv">
+    			<div *ngIf="product.productReviewers[0]== null || noReview == true" align="center">
+    				<h3 style="color:#f5fffa;">No Reviews Found ! &nbsp; 
+    					<i class="fa fa-frown-o" aria-hidden="true"></i>
+    				</h3>
+    			</div>
+    
+    			<div *ngIf="product.productReviewers[0] != null">
+    				<span *ngFor="let reviewer of product.productReviewers |orderBy:Otype:Oby;let idx = index" >
+	    				<div class="row" id="review" *ngIf="reviewer.reviewComment !='null'">
+	    					<div class="col-lg-1 col-md-1 col-sm-2">
+	    						<img class="reviewerCommentImage" src="{{reviewer.customerImage}}">
+	    					</div>
+	    	
+	    					<div class="col-lg-11 col-md-11 col-sm-10" id="chatbg" style="    padding: 8px 29px;">
+	    						<span class="reviewerName" style="font-size: 15px;padding: 15px">&nbsp;&nbsp; by {{reviewer.customerName}}</span>&nbsp;
+		    					<span class="reviewDate" style="font-size: 15px">{{reviewer.timeStamp}}</span>
+		    					<span style="float: right;font-size: 18px;">
+		    						<!-- <i class="fa fa-play"></i> -->
+		    						<span *ngFor="let st of stars">
+				                		<i class="fa fa-star" #cStar id="{{idx}}{{st}}"></i>
+				            		</span>	
+		    					</span>
+		    					<p class="reviewComment" style="font-size: 18px;padding: 5px 20px;">{{reviewer.reviewComment}}</p>	
+	    					</div>	
+	    				</div>
+	    			</span>
+    			</div>
+    		</div>
+    		<div id="reviewCommentsBottomShade"></div>
+		</div>
+	</div>
+	
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="sizechart" role="dialog">
+	<div class="modal-dialog modal-lg" style="    width: 60%;">
+		<div style=" position: relative; outline: 0;">
+			<div class="">
+				<div class="modal-header" style="background-color: transparent;border-bottom: 1px solid rgba(229, 229, 229, 0);">
+					<span  class="close " data-dismiss="modal" style="color:white;font-size: 58px;position: absolute;right: -38px;">&times;</span>
+				</div>
+				<div class="modal-body">
+					<div class="">
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+								<li data-target="#myCarousel" data-slide-to="2"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active" *ngIf="clothSizeChartStatus">
+									<img src="https://s3-us-west-2.amazonaws.com/qlezfilesbucket/size_chart_men.jpg" alt="Men Size Chart" style="width:100%;">
+								</div>
+
+								<div class="item" align="center" *ngIf="clothSizeChartStatus">
+									<img src="https://s3-us-west-2.amazonaws.com/qlezfilesbucket/size_chart_women.jpg" alt="Women Size Chart" style="width:80%;">
+								</div>
+
+								<div class="item active" align="center" *ngIf="shoeSizeChartStatus">
+									<img src="https://s3-us-west-2.amazonaws.com/qlezfilesbucket/Shoe_Size_Chart_1-041cc.jpg" alt="Shoe Size Chart" style="width:80%;">
+								</div>
+								<div class="item" align="center" *ngIf="shoeSizeChartStatus">
+									<img src="https://s3-us-west-2.amazonaws.com/qlezfilesbucket/shoes-womens-shoes.jpg" alt="Shoe Size Chart" style="width:80%;">
+								</div>
+									
+							</div>
+
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+ 						 <span class="glyphicon glyphicon-chevron-left"></span>
+  							<span class="sr-only">Previous</span>
+						</a>
+							<a class="right carousel-control" href="#myCarousel" data-slide="next">
+ 								 <span class="glyphicon glyphicon-chevron-right"></span>
+  									<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<footer></footer>
